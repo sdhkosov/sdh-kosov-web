@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SDH Košov – Sbor dobrovolných hasičů</title>
+<meta name="description" content="Oficiální stránky Sboru dobrovolných hasičů Košov. Založeno 1895.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <div class="logo-block">
+      <img src="assets/logo.png" alt="Znak SDH Košov" class="logo">
+      <div class="logo-text">
+        <h1>SDH Košov</h1>
+        <p>Sbor dobrovolných hasičů · založeno 1895</p>
+      </div>
+    </div>
+    <nav class="main-nav">
+      <button class="nav-toggle" id="navToggle" aria-label="Otevřít menu">&#9776;</button>
+      <ul id="navList">
+        <li><a href="#uvod">Úvod</a></li>
+        <li><a href="#aktuality">Aktuality</a></li>
+        <li><a href="#technika">Technika</a></li>
+        <li><a href="https://sdhkosov.rajce.idnes.cz/" target="_blank" rel="noopener">Fotogalerie</a></li>
+        <li><a href="#kontakty">Kontakty</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<section id="uvod" class="hero">
+  <div class="container">
+    <h2>Vítejte na stránkách SDH Košov</h2>
+    <p>Jsme dobrovolní hasiči z Košova u Lomnice nad Popelkou. Od roku 1895 pomáháme, zasahujeme a pořádáme akce pro obec i okolí.</p>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">1895</span><span class="stat-label">Rok založení</span></div>
+      <div class="stat"><span class="stat-num">130+</span><span class="stat-label">Let tradice</span></div>
+      <div class="stat"><span class="stat-num">2</span><span class="stat-label">Vozidla v technice</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="aktuality" class="section">
+  <div class="container">
+    <h2 class="section-title">Aktuality</h2>
+    <div id="aktualityList" class="card-grid">
+      <p class="loading">Načítám aktuality…</p>
+    </div>
+  </div>
+</section>
+
+<section id="technika" class="section section-alt">
+  <div class="container">
+    <h2 class="section-title">Naše technika</h2>
+    <div class="card-grid">
+      <div class="card tech-card">
+        <div class="tech-photo-placeholder">Foto vozidla</div>
+        <h3>CAS 25 – Škoda 706 RTHP</h3>
+        <p><strong>Rok výroby:</strong> doplnit<br>
+        <strong>Určení:</strong> cisternová automobilová stříkačka<br>
+        <strong>Poznámka:</strong> doplnit popis, historii vozidla</p>
+      </div>
+      <div class="card tech-card">
+        <div class="tech-photo-placeholder">Foto vozidla</div>
+        <h3>PS 12 – přenosná stříkačka</h3>
+        <p><strong>Rok výroby:</strong> doplnit<br>
+        <strong>Určení:</strong> soutěžní / zásahová stříkačka<br>
+        <strong>Poznámka:</strong> doplnit popis</p>
+      </div>
+    </div>
+    <p class="hint">Tip: Tuhle sekci snadno upravíš přímo v souboru <code>index.html</code> – zkopíruj blok <code>.tech-card</code> a přepiš texty.</p>
+  </div>
+</section>
+
+<section id="kontakty" class="section">
+  <div class="container">
+    <h2 class="section-title">Kontakty</h2>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <p><strong>Sbor dobrovolných hasičů Košov</strong></p>
+        <p>Košov 54, 512 51 Lomnice nad Popelkou</p>
+        <p>Telefon: <a href="tel:+420731547701">731 547 701</a></p>
+        <p>E-mail: <a href="mailto:sdhkosov@seznam.cz">sdhkosov@seznam.cz</a></p>
+        <p><a href="https://sdhkosov.rajce.idnes.cz/" target="_blank" rel="noopener">Fotogalerie na Rajčeti »</a></p>
+      </div>
+      <div class="emergency-box">
+        <h3>Tísňová volání</h3>
+        <ul>
+          <li><strong>150</strong> – Hasiči</li>
+          <li><strong>158</strong> – Policie</li>
+          <li><strong>155</strong> – Záchranná služba</li>
+          <li><strong>112</strong> – Jednotné evropské číslo</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <p>&copy; <span id="year"></span> SDH Košov. Založeno 1895.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
